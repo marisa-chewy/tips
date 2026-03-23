@@ -4,11 +4,11 @@ Turn Claude Code's "Thinking..." spinner into a personalized learning tool.
 
 ## What is this?
 
-When Claude Code is working, you stare at a spinner. By default it says things like "Analyzing..." or "Researching..." — not very useful.
+When Claude Code is working, you stare at a spinner. By default it says things like "Analyzing..." or "Researching..." which is... not very useful.
 
-This skill replaces that dead time with **micro-learning moments**: technical vocab definitions, workflow tips, and power-user tricks tailored to your skill level and what you actually use Claude Code for.
+This skill replaces that dead time with **micro-learning moments**: technical vocab definitions, workflow tips, and power-user tricks. All tailored to your skill level and what you actually use Claude Code for.
 
-A People leader who's new to dev tools? You'll learn what "API" and "webhook" mean while you wait. A senior engineer? You'll get deep-cut shortcuts and advanced patterns. Everyone gets something useful.
+New to dev tools? You'll learn what "API" and "webhook" mean while you wait. Senior engineer? You'll get deep-cut shortcuts and advanced patterns. Everyone gets something useful.
 
 ## How to use it
 
@@ -24,7 +24,7 @@ A People leader who's new to dev tools? You'll learn what "API" and "webhook" me
    - **What you use Claude Code for** (writing, data, code, automation)
    - **How fancy you want to get** (basic 2-min setup vs. full auto-refresh system)
 
-4. Claude generates personalized content and installs it. Done.
+4. Claude generates personalized content and installs it. Done!
 
 ## What it looks like
 
@@ -51,24 +51,26 @@ And tips like:
 | **What it does** | Swaps spinner text | Adds auto-refresh, loader script, status bar |
 | **Best for** | Just want custom tips | Want tips that evolve with your work |
 
-## The ethos
+## Why I built this
 
-This repo is about making tools work harder for the humans using them. The best customizations are the ones that turn passive moments into active ones — even something as small as a loading spinner.
+I'm not an engineer. I'm a People leader who started using Claude Code about two months ago and immediately thought "there has to be a way to make this waiting time useful."
 
-I'm not an engineer. I'm a People leader at [Valon](https://valon.com) who started using Claude Code and realized that the best way to learn technical concepts is to see them *constantly*, in context, without having to go looking. This was my first real "hack" and I wanted to share it.
+Turns out there is! You can customize the spinner text in your settings. So I filled mine with beginner-friendly technical vocab and tips for things I didn't know Claude Code could do. Now every time Claude thinks, I'm picking up a new concept without even trying.
 
-If you build something cool with this, I'd love to hear about it.
+It's a small thing, but it genuinely changed how I learn. Two months in and I've absorbed dozens of technical terms just from watching the spinner. No flashcards, no tutorials. Just little moments of "oh, that's what that means" while I wait.
+
+If you build something cool with this, I'd love to hear about it!
 
 ---
 
-## We're hiring
+## We're hiring!
 
-This skill was built at [Valon](https://valon.com), where we're using AI to transform mortgage servicing. We're building **Valon.ai** — and we're looking for people who are excited about what happens when you put powerful tools in the hands of every team, not just engineering.
+I built this at [Valon](https://valon.ai), where we're using AI to transform mortgage servicing. We're building Valon.ai and we're looking for people who are excited about what happens when you put powerful tools in the hands of every team, not just engineering.
 
-If you're curious about working somewhere that treats AI adoption as a company-wide sport, check out our [careers page](https://valon.com/careers).
+If that sounds interesting to you, check out our [careers page](https://valon.ai/careers) :)
 
 ---
 
 ## License
 
-MIT — do whatever you want with it.
+MIT. Do whatever you want with it!
