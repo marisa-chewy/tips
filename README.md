@@ -1,73 +1,50 @@
 # tips
 
-Turn Claude Code's "Thinking..." spinner into a personalized learning tool.
+A collection of Claude Code skills, customizations, and little hacks I've built to make the tool work better for me. I'm sharing them here so you can try them too.
 
-## What is this?
+## About me
 
-When Claude Code is working, you stare at a spinner. By default it says things like "Analyzing..." or "Researching..." which is... not very useful.
+I'm Marisa. I lead People at [Valon](https://valon.ai) and I am not an engineer. I started using Claude Code about two months ago and I've been having a blast figuring out what it can do. I learn best by tinkering, so this repo is basically my workshop. Everything here started as "I wonder if I could..." and turned into something I use every day.
 
-This skill replaces that dead time with **micro-learning moments**: technical vocab definitions, workflow tips, and power-user tricks. All tailored to your skill level and what you actually use Claude Code for.
+If you're technical, you'll probably fly through these. If you're not (like me!), that's totally fine. These skills are designed to meet you where you are and ask you what you need.
 
-New to dev tools? You'll learn what "API" and "webhook" mean while you wait. Senior engineer? You'll get deep-cut shortcuts and advanced patterns. Everyone gets something useful.
+## What's in here
 
-## How to use it
+Each skill is an interactive `.md` file. You point Claude Code at it and it walks you through everything.
 
-1. Open Claude Code
-2. Point it at the skill file:
+| Skill | What it does | Time |
+|---|---|---|
+| [claude-spinner-tips.md](claude-spinner-tips.md) | Turns the "Thinking..." spinner into personalized vocab lessons and tips | 2-10 min |
+
+More coming soon! I'm always building new things as I find new workflows to improve.
+
+## How to use any skill
+
+1. Download the `.md` file (or clone this repo)
+2. Open Claude Code
+3. Point it at the skill:
 
 ```
 @claude-spinner-tips.md set up my spinner tips
 ```
 
-3. Answer 3 quick questions:
-   - **Your skill level** (beginner / intermediate / advanced)
-   - **What you use Claude Code for** (writing, data, code, automation)
-   - **How fancy you want to get** (basic 2-min setup vs. full auto-refresh system)
+4. Answer a few questions and let Claude do the rest!
 
-4. Claude generates personalized content and installs it. Done!
+Every skill asks you about your skill level and what you care about, so the output is personalized to you. A beginner and a senior engineer will get very different results from the same skill.
 
-## What it looks like
+## Why I'm sharing this
 
-Instead of this:
-```
-⠋ Thinking...
-```
+I genuinely believe the best way to learn new tools is to see what other people are building with them. Not polished tutorials, just real things that real people made because they had a problem and got curious.
 
-You see things like:
-```
-⠋ webhook — auto-notification between apps
-```
-
-And tips like:
-```
-💡 You can chain tools: read data from Sheets, analyze in Python, post results to Notion
-```
-
-## Two tiers
-
-| | Basic | Full System |
-|---|---|---|
-| **Time** | ~2 min | ~10 min |
-| **What it does** | Swaps spinner text | Adds auto-refresh, loader script, status bar |
-| **Best for** | Just want custom tips | Want tips that evolve with your work |
-
-## Why I built this
-
-I'm not an engineer. I'm a People leader who started using Claude Code about two months ago and immediately thought "there has to be a way to make this waiting time useful."
-
-Turns out there is! You can customize the spinner text in your settings. So I filled mine with beginner-friendly technical vocab and tips for things I didn't know Claude Code could do. Now every time Claude thinks, I'm picking up a new concept without even trying.
-
-It's a small thing, but it genuinely changed how I learn. Two months in and I've absorbed dozens of technical terms just from watching the spinner. No flashcards, no tutorials. Just little moments of "oh, that's what that means" while I wait.
-
-If you build something cool with this, I'd love to hear about it!
+If something here helps you, that's amazing. If you build on it and make it better, I'd love to see what you come up with!
 
 ---
 
-## We're hiring!
+## Come work with us!
 
-I built this at [Valon](https://valon.ai), where we're using AI to transform mortgage servicing. We're building Valon.ai and we're looking for people who are excited about what happens when you put powerful tools in the hands of every team, not just engineering.
+I built all of this on the **People team** at [Valon](https://valon.ai). Not engineering. People. If this is what we're up to over here, imagine how much fun the engineers are having :)
 
-If that sounds interesting to you, check out our [careers page](https://valon.ai/careers) :)
+We're building Valon.ai and looking for curious people across the company who get excited about making tools work harder for humans. If that sounds like you, check out our [careers page](https://valon.ai/careers)!
 
 ---
 
